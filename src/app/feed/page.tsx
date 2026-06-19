@@ -463,21 +463,6 @@ function FeedPageContent() {
         </div>
       )}
 
-      {/* Floating Action Button (FAB) on mobile for Helpees */}
-      {role === "helpee" && activeTab === "browse" && (
-        <div className="pointer-events-none fixed bottom-20 md:bottom-8 right-6 z-20">
-          <Link
-            href="/post"
-            className={cn(
-              buttonVariants({ size: "lg" }),
-              "pointer-events-auto h-12 cursor-pointer shadow-e3 border-none flex items-center gap-1 bg-primary text-white",
-            )}
-          >
-            <Plus className="size-5" strokeWidth={2} />
-            Post
-          </Link>
-        </div>
-      )}
     </AppLayout>
   )
 }
