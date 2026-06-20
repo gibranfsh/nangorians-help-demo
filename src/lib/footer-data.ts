@@ -49,6 +49,6 @@ export const footerColumns: FooterColumn[] = [
 
 export const trustMetrics = [
   { value: "12+", label: "Open tasks" },
-  { value: "500+", label: "Nangorians in the community" },
+  { value: "500+", label: "Users in the community" },
   { value: "4.9", label: "Avg helper rating" },
 ]

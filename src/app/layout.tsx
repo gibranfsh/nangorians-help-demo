@@ -10,8 +10,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "NangoriansHelp",
-  description: "A local peer-to-peer helper marketplace for Nangorians.",
+  title: "Bantu.in",
+  description: "A local peer-to-peer helper marketplace.",
 }
 
 export default function RootLayout({

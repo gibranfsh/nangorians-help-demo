@@ -401,7 +401,7 @@ export function PostHelpForm() {
             {errors.location ? (
               <p className="text-xs font-medium text-destructive">{errors.location}</p>
             ) : (
-              <p className="text-xs font-medium text-ink-soft">Specific dropoff location in Jatinangor.</p>
+              <p className="text-xs font-medium text-ink-soft">Specific dropoff location.</p>
             )}
           </div>
 

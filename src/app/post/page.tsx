@@ -49,7 +49,7 @@ export default function PostPage() {
       <div className="mb-6">
         <h1 className="text-2xl font-semibold text-ink">Post a task</h1>
         <p className="mt-1 text-sm text-ink-soft">
-          Agree on a price range and get help from someone in Jatinangor.
+          Agree on a price range and get help from someone nearby.
         </p>
       </div>
       

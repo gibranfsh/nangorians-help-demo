@@ -89,7 +89,7 @@ export function ProfileModal() {
         <div className="mt-5 bg-surface-raised border border-border/80 rounded-xl p-4 space-y-3">
           <div className="flex justify-between items-center">
             <div>
-              <span className="text-[10px] font-bold text-ink-soft uppercase tracking-wider block">Nangorians Wallet</span>
+              <span className="text-[10px] font-bold text-ink-soft uppercase tracking-wider block">Wallet Balance</span>
               <span className="text-xl font-bold text-ink tabular-nums mt-0.5 block">
                 {formatPrice(user.walletBalance ?? 150000)}
               </span>

@@ -18,12 +18,12 @@ export function FeedHero({ openCount }: FeedHeroProps) {
       {/* Pill tag */}
       <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-border/60 bg-card/60 px-3 py-1.5 backdrop-blur-sm">
         <span className="size-1.5 rounded-full bg-success" />
-        <span className="text-xs font-semibold text-ink-soft">For the community, by Nangorians</span>
+        <span className="text-xs font-semibold text-ink-soft">For the community, by the community</span>
       </div>
 
       {/* Headline */}
       <h1 className="text-3xl font-bold tracking-tight text-ink md:text-4xl leading-tight">
-        Need a hand, Nangorian?
+        Need a hand?
       </h1>
 
       {/* Personalized subtitle */}

@@ -246,7 +246,7 @@ function StatusDashboard({
             </p>
           </div>
           <div className="inline-flex gap-2 items-center rounded-lg bg-success/5 px-3 py-1.5 border border-success/15 text-[10px] font-bold text-success mx-auto">
-            Payment Method: Nangorians Wallet
+            Payment Method: Wallet Balance
           </div>
         </div>
       )}

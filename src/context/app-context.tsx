@@ -92,7 +92,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         priceMax: input.priceMax,
         status: "open",
         category: input.category.trim() || "General",
-        location: input.location.trim() || "Jatinangor area",
+        location: input.location.trim() || "Local area",
         estimatedDuration: input.estimatedDuration?.trim() || undefined,
         helpee: user ?? DEMO_HELPEE,
         createdAt: new Date(),

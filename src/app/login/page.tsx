@@ -85,14 +85,14 @@ export default function LoginPage() {
               <div className="flex size-10 items-center justify-center rounded-lg overflow-hidden border border-border bg-card">
                 <Image
                   src="/images/logo-icon.webp"
-                  alt="NangoriansHelp Logo"
+                  alt="Bantu.in Logo"
                   width={40}
                   height={40}
                   className="size-full object-cover"
                 />
               </div>
               <span className="font-semibold text-ink">
-                Nangorians<span className="text-secondary">Help</span>
+                Bantu<span className="text-secondary">.in</span>
               </span>
             </Link>
 
@@ -100,7 +100,7 @@ export default function LoginPage() {
             <div className="mx-auto w-full max-w-sm">
               <Card className="border-border shadow-e4">
                 <CardHeader className="text-center">
-                  <CardTitle className="text-xl">Welcome to NangoriansHelp</CardTitle>
+                  <CardTitle className="text-xl">Welcome to Bantu.in</CardTitle>
                   <CardDescription>
                     Sign in to post tasks or offer to help people nearby.
                   </CardDescription>
@@ -158,15 +158,15 @@ export default function LoginPage() {
             {/* Social proof content — bottom left */}
             <div className="absolute inset-x-0 bottom-0 flex flex-col justify-end p-12 xl:p-16">
               <span className="inline-block w-fit rounded-full bg-secondary px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
-                Jatinangor Community Hub
+                Your Local Community Hub
               </span>
 
               <h2 className="mt-4 max-w-lg text-4xl font-extrabold leading-tight tracking-tight text-white xl:text-5xl">
-                Need a hand, Nangorian?
+                Need a hand?
               </h2>
 
               <p className="mt-3 max-w-md text-sm leading-relaxed text-white/70">
-                NangoriansHelp makes everyday favors easy to ask for and
+                Bantu.in makes everyday favors easy to ask for and
                 easy to help with.
               </p>
 

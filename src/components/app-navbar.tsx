@@ -138,14 +138,14 @@ export function AppNavbar() {
           <div className="flex size-10 items-center justify-center rounded-lg overflow-hidden border border-border bg-card">
             <Image
               src="/images/logo-icon.webp"
-              alt="NangoriansHelp Logo"
+              alt="Bantu.in Logo"
               width={40}
               height={40}
               className="size-full object-cover"
             />
           </div>
           <span className="font-semibold text-ink">
-            Nangorians<span className="text-secondary">Help</span>
+            Bantu<span className="text-secondary">.in</span>
           </span>
         </Link>
 
@@ -294,14 +294,14 @@ export function AppNavbar() {
                 <div className="flex size-8 items-center justify-center rounded-lg overflow-hidden border border-border bg-card">
                   <Image
                     src="/images/logo-icon.webp"
-                    alt="NangoriansHelp Logo"
+                    alt="Bantu.in Logo"
                     width={32}
                     height={32}
                     className="size-full object-cover"
                   />
                 </div>
                 <span className="font-semibold text-xs text-ink">
-                  Nangorians<span className="text-secondary">Help</span>
+                  Bantu<span className="text-secondary">.in</span>
                 </span>
               </Link>
               <button

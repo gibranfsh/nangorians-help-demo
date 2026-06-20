@@ -15,7 +15,7 @@ export function AppFooter({ className }: { className?: string }) {
       <div className="border-b border-border bg-primary/5 py-3">
         <PageContainer>
           <p className="text-center text-xs font-semibold text-ink-soft">
-            Trusted by neighbors in Jatinangor
+            Trusted by neighbors in the community
           </p>
         </PageContainer>
       </div>
@@ -31,15 +31,15 @@ export function AppFooter({ className }: { className?: string }) {
               )}
             >
               <span className="text-2xl font-bold tracking-tight text-ink">
-                Nangorians
+                Bantu
               </span>
               <span className="text-2xl font-bold tracking-tight text-secondary">
-                Help
+                .in
               </span>
             </Link>
 
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-soft">
-              The local marketplace for Jatinangor people who need a hand.
+              The local marketplace for people who need a hand.
             </p>
 
             <div className="mt-6 flex gap-4">
@@ -60,7 +60,7 @@ export function AppFooter({ className }: { className?: string }) {
         <div className="border-t border-border py-6">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-ink-soft">
-              © 2026 NangoriansHelp. Built with care for the Jatinangor community.
+              © 2026 Bantu.in. Built with care for the community.
             </p>
             <FooterSocialIcons />
           </div>
